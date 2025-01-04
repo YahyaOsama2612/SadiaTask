@@ -61,6 +61,7 @@
     margin-left: 50%;
     gap: 10px;
     font-size: 12px;
+    
   }
 
   .nav-icon {
@@ -102,7 +103,7 @@
 .highlight {
   background: linear-gradient(91.57deg, #1bd1c2 54.12%, #3390ff 92.74%);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; /* Customize this if specific styles are needed for the span */
+  -webkit-background-clip: text;/* Customize this if specific styles are needed for the span */
 }
 
 .star-icon {
@@ -139,16 +140,5 @@
     -moz-transform: translate(670px, -65px);
     -ms-transform: translate(670px, -65px);
     -o-transform: translate(670px, -65px);
-  }
 }
-@media (max-width: 480px) {
-  .div {
-    width: 1440px;
-  }
-}
-
-@media (max-width: 768px) {
-  .div {
-    width: 1440px;
-  }
 }

@@ -7,10 +7,10 @@ import two from "/src/assets/Two.svg";
 import three from "/src/assets/Three.svg";
 const SectionFour = () => {
   return (
-    <div className="div"
+    <div 
       style={{
         position: "absolute",
-        width:"100%",
+        width:"1440px",
         height: "640px",
         left: "0px",
         top: "4103px",
