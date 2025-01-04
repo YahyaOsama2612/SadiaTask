@@ -87,6 +87,45 @@ const NavBar = () => {
           Contact Us
         </p>
       </div>
+      <style>
+        {`
+      @media (max-width: 768px) {
+        div {
+          margin-left: 10%;
+          gap: 8px;
+          font-size: 12px;
+        }
+
+        img {
+          width: 6px;
+          height: 6px;
+          margin-top: 10px;
+        }
+
+        p {
+          line-height: 24px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        div {
+          margin-left: 5%;
+          gap: 5px;
+          font-size: 10px;
+        }
+
+        img {
+          width: 5px;
+          height: 5px;
+          margin-top: 8px;
+        }
+
+        p {
+          line-height: 20px;
+        }
+      }
+    `}
+      </style>
     </div>
   );
 };
