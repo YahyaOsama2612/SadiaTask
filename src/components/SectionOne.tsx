@@ -1,5 +1,5 @@
 import star from "/src/assets/star.svg";
-import vector2 from "/src/assets/vector2.svg"
+import vector2 from "/src/assets/vector2.svg";
 
 const SectionOne = () => {
   return (
@@ -10,26 +10,12 @@ const SectionOne = () => {
         transform: "translate(50%,50%)",
       }}
     >
-      <h1
-        style={{
-          fontSize: "54px",
-          fontWeight: "600px",
-          lineHeight: "65.88px",
-          textAlign: "center",
-        }}
-      >
+      <h1 className="main-heading">
         Revolutionize Your Hiring Process with{" "}
-        <span className="span"> Recruito AI</span>
+        <span className="highlight">Recruito AI</span>
       </h1>
-      <img
-        style={{
-          width: "26.25px",
-          height: "25.87px",
-          transform: "translate(650px, -95px)",
-        }}
-        src={star}
-        alt=""
-      />
+      <img className="star-icon" src={star} alt="Star Icon" />
+
       <div
         style={{
           position: "absolute",
@@ -76,7 +62,8 @@ const SectionOne = () => {
           Start Your Free Trial
         </p>
       </div>
-      <div className="Request"
+      <div
+        className="Request"
         style={{
           position: "absolute",
           width: "183px",
@@ -94,19 +81,25 @@ const SectionOne = () => {
             fontWeight: "600",
             lineHeight: "15px",
             textAlign: "center",
-            color:"white"
+            color: "white",
           }}
         >
           Request a demo
         </p>
-        <img style={{position:"absolute",width:"13.69px",height:"14.09px",left:"15px",top:"15px"}} src={vector2} alt="" />
+        <img
+          style={{
+            position: "absolute",
+            width: "13.69px",
+            height: "14.09px",
+            left: "15px",
+            top: "15px",
+          }}
+          src={vector2}
+          alt=""
+        />
       </div>
     </div>
   );
 };
 
 export default SectionOne;
-
-
-
-

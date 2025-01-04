@@ -92,3 +92,47 @@
     line-height: 20px;
   }
 }
+/* Default styles for larger screens */
+.main-heading {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 65.88px;
+  text-align: center;
+}
+
+.highlight {
+  color: inherit; /* Customize this if specific styles are needed for the span */
+}
+
+.star-icon {
+  width: 26.25px;
+  height: 25.87px;
+  transform: translate(650px, -95px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .star-icon {
+    transform: translate(300px, -50px);
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .star-icon {
+    transform: translate(150px, -30px);
+    width: 15px;
+    height: 15px;
+  }
+}
