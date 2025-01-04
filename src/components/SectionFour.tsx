@@ -7,7 +7,7 @@ import two from "/src/assets/Two.svg";
 import three from "/src/assets/Three.svg";
 const SectionFour = () => {
   return (
-    <div
+    <div className="div"
       style={{
         position: "absolute",
         width:"100%",
@@ -58,7 +58,7 @@ const SectionFour = () => {
           position: "absolute",
           left: "948px",
           top: "4157",
-          width: "494",
+          width: "494px",
           height: "586px",
           opacity: "0.13",
           transform: "matrix(-1, 0, 0, 1, 0, 0)",
