@@ -77,7 +77,7 @@
 
 @media (max-width: 480px) {
   .responsive-container {
-    margin-left: 395%;
+    margin-left: 150%;
     gap: 5px;
     font-size: 10px;
   }
