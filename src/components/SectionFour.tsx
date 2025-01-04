@@ -3,7 +3,7 @@ import RecturioOne from "/src//assets/RecturioOne.svg";
 import RecturioTwo from "/src//assets/RecturioTwo.svg";
 import RecturioThree from "/src//assets/RecturioThree.svg";
 import one from "/src/assets/One.svg";
-import two from "/src/assets/two.svg";
+import two from "/src/assets/Two.svg";
 import three from "/src/assets/Three.svg";
 const SectionFour = () => {
   return (

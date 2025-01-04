@@ -25,7 +25,7 @@ const SectionOne = () => {
         style={{
           width: "26.25px",
           height: "25.87px",
-          transform: "translate(620px, -95px)",
+          transform: "translate(650px, -95px)",
         }}
         src={star}
         alt=""

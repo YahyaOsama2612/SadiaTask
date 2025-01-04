@@ -19,7 +19,7 @@ import backgroundTwo from "/src/assets/docker-pattern-two.svg";
 function App() {
   return (
     <>
-      <img
+      <img 
         style={{
           position: "absolute",
           width: "537",
