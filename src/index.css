@@ -58,7 +58,7 @@
 /* Media queries */
 @media (max-width: 768px) {
   .responsive-container {
-    margin-left: 250%;
+    margin-left: 50%;
     gap: 10px;
     font-size: 12px;
     
