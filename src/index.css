@@ -8,11 +8,11 @@
   background: linear-gradient(273.36deg, #1f67e7 1.01%, #1ad7be 99.63%);
 }
 
-.span {
+/* .span {
   background: linear-gradient(91.57deg, #1bd1c2 54.12%, #3390ff 92.74%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-}
+} */
 
 .Request {
   background: linear-gradient(273.36deg, #1f67e7 1.01%, #1ad7be 99.63%);
@@ -101,7 +101,9 @@
 }
 
 .highlight {
-  color: inherit; /* Customize this if specific styles are needed for the span */
+  background: linear-gradient(91.57deg, #1bd1c2 54.12%, #3390ff 92.74%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;/* Customize this if specific styles are needed for the span */
 }
 
 .star-icon {
@@ -131,7 +133,7 @@
   }
 
   .star-icon {
-    transform: translate(150px, -30px);
+    transform: translate(250px, -30px);
     width: 15px;
     height: 15px;
   }
