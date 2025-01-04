@@ -10,7 +10,7 @@ const SectionFour = () => {
     <div
       style={{
         position: "absolute",
-        width: "1440px",
+        width:"100%",
         height: "640px",
         left: "0px",
         top: "4103px",
